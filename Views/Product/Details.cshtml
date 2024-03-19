@@ -1,0 +1,9 @@
+﻿@model Exercise.Models.Product
+
+<div>
+    <h4>Product Name: @Html.DisplayFor(model => model.ProductName)</h4>
+    <h4>Price: @Html.DisplayFor(model => model.Price)</h4>
+    <h4>Quantity: @Html.DisplayFor(model => model.Quantity)</h4>
+
+    @Html.ActionLink("Back", "Index")
+</div>
